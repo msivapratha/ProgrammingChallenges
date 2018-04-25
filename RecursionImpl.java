@@ -15,7 +15,7 @@ public class RecursionImpl {
             return 1;
         }
 
-        return factorial(number -1);
+        return number* factorial(number -1);
     }
 
     public static String reverse(String msg){
